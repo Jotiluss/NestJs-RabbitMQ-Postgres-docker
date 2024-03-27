@@ -1,0 +1,45 @@
+apps
+  notifications
+    src
+      app.controller.ts
+      app.module.ts
+      app.service.ts
+      main.ts
+    Dockerfile
+    tsconfig.app.json
+  todo-list
+    src
+      category
+        dto
+          create-category.dto.ts
+          index.ts
+          update-category.dto.ts
+        category.controller.ts
+        category.entity.ts
+        category.module.ts
+        category.service.ts
+      task
+        dto
+          create-task.dto.ts
+          index.ts
+          update-task.dto.ts
+        task.controller.ts
+        task.entity.ts
+        task.module.ts
+        task.service.ts
+      app.module.ts
+      main.ts
+    Dockerfile
+    tsconfig.app.json
+.dockerignore
+.env
+.eslintrc.js
+.gitignore
+.prettierrc
+docker-compose.yml
+nest-cli.json
+package-lock.json
+package.json
+README.md
+tsconfig.build.json
+tsconfig.json
